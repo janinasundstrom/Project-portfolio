@@ -101,7 +101,7 @@
   
   .nav-links {
     position: absolute;
-    height: 500px;
+    height: fit-content;
     width: 200px;
     top: 0;
     right: 0;
@@ -125,10 +125,10 @@
     }
   }
   
-  @media only screen and (max-width: 900px) {
-    .text-box {
-      border: 5px solid rgb(146, 146, 170);
-      background-color: rgb(167, 216, 218);
-    }
+  @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
   }
   
