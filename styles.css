@@ -27,7 +27,7 @@ font-family: 'Poppins', sans-serif;
 /*Hur menyn ligger*/
     .nav-links{
         flex: 1;
-        text-align:right;
+        text-align:absolute;
 
     }
 /*Mina menyval */
@@ -123,12 +123,12 @@ font-family: 'Poppins', sans-serif;
 
 
 body {
-    color: rgb(0, 0, 0)
+    color: rgb(0, 0, 0);
 
 }
 
 .title {
-    font-size: 40px
+    font-size: 40px;
 
 }
 
@@ -143,10 +143,10 @@ body {
    }
 }
 
-@media (max-width: 500px){
-body {
-    color: rgb(161, 190, 167);
-    font-size: 40;
+@media only screen and (max-width: 768px) {
+    .box {
+        border: 5px solid blue;
+    }
 }
 
-}
+
