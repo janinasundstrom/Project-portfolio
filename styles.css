@@ -21,7 +21,7 @@
   
   /* Hur menyn ligger */
   .nav-links {
-    flex: 1;
+    position: absolute;
     text-align: absolute;
   }
   /* Mina menyval */
@@ -54,7 +54,7 @@
   }
   /* Min content på alla sidor*/
   .text-box {
-    width: 100%;
+    
     color: #000;
   
     top: 0%;
@@ -64,6 +64,7 @@
     margin-right: auto;
   
     text-align: center;
+    max-width: 900px;
   }
   
   /* Storlek rubrik på alla 3 sidor*/
@@ -73,7 +74,7 @@
   
   .text-box p {
     margin: 20px 40px;
-    font-size: 18px;
+    font-size: 15px;
     color: black;
   }
   
