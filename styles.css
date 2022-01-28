@@ -1,99 +1,84 @@
-
 * {
-    background-color: rgb(204, 219, 204); /*En backgrundsfärg för alla mina sidor*/
- 
-  }
-
-*{
-
+    background-color: rgb(
+      204,
+      219,
+      204
+    ); /* En backgrundsfärg för alla mina sidor*/
     margin: 100;
-padding: 500;
-font-family: 'Poppins', sans-serif;
-
-}
-.header {
+    padding: 500;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .header {
     min-height: 500%;
     width: 100%;
     background-position: center;
-
-} 
-
-
-    nav img{
-        width: 100px;
-
-    }
-
-/*Hur menyn ligger*/
-    .nav-links{
-        flex: 1;
-        text-align:absolute;
-
-    }
-/*Mina menyval */
-    .nav-links ul li{
-        list-style: none;
-        display: inline-block;
-        padding: 8px 12px;
-        position: relative;
-
-    }
-/*Min textfärg på menyn*/
-    .nav-links ul li a{
-        color: #000;
-        text-decoration: none;
-        font-size: 18px;
-    }
-
-    /*Sträck i färg under menytext*/
-    .nav-links ul li::after{
-        content: '';
-        width: 0%;
-        height: 2px;
-        background: #19500e;
-        display: block;
-        margin: auto;
-        transition: 0.5s;
-
-    }
-
-    .nav-links ul li:hover::after{
-        width: 100%
-    }
-/*Min content på alla sidor*/
-    .text-box{
-        width: 100%;
-        color: #000;
-    
-        top: 0%;
-        left: 0%;
-        text-align: center;
-        margin-left:auto;
-        margin-right: auto;
-    
-        
-        text-align: center;
-
- }
-
-
-/*storlek rubrik på alla 3 sidor*/
- .text-box h1{
-     font-size: 40px;
-
-}
-
-.text-box p{
-    margin: 20px  40px;
-    font-size: 20px;
+  }
+  
+  nav img {
+    width: 100px;
+  }
+  
+  /* Hur menyn ligger */
+  .nav-links {
+    flex: 1;
+    text-align: absolute;
+  }
+  /* Mina menyval */
+  .nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+  }
+  /* Min textfärg på menyn*/
+  .nav-links ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Sträck i färg under menytext*/
+  .nav-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #19500e;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  
+  .nav-links ul li:hover::after {
+    width: 100%;
+  }
+  /* Min content på alla sidor*/
+  .text-box {
+    width: 100%;
+    color: #000;
+  
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+    text-align: center;
+  }
+  
+  /* Storlek rubrik på alla 3 sidor*/
+  .text-box h1 {
+    font-size: 40px;
+  }
+  
+  .text-box p {
+    margin: 20px 40px;
+    font-size: 18px;
     color: black;
-
-}
-
-
-
-/*Min bakgrundsfärg och funktion på Linkedin knappen*/
-.hero-btn{
+  }
+  
+  /* Min bakgrundsfärg och funktion på Linkedin knappen*/
+  .hero-btn {
     display: inline-block;
     text-decoration: none;
     color: black;
@@ -103,54 +88,44 @@ font-family: 'Poppins', sans-serif;
     background: transparent;
     position: relative;
     cursor: pointer;
-
-}
-
-
-/*färg och hur snabbt den switchar då man för musen över */
-.hero-btn:hover{
+  }
+  
+  /* Färg och hur snabbt den switchar då man för musen över */
+  .hero-btn:hover {
     border: 1px solid #2fdb0c;
     background: #2fdb0c;
     transition: 1s;
-}
-
-
-
-
-.nav-links{
+  }
+  
+  .nav-links {
     position: absolute;
     height: 500px;
     width: 200px;
     top: 0;
     right: 0;
-}
-
-
-body {
+  }
+  
+  body {
     color: rgb(0, 0, 0);
-
-}
-
-.title {
+  }
+  
+  .title {
     font-size: 40px;
-
-}
-
-.subtitle {
+  }
+  
+  .subtitle {
     font-size: 30px;
-}
-
-@media(max-width: 700px){
-    .text-box h1{
-        font-size: 30px;
-   
-   }
-}
-
-@media only screen and (max-width: 768px) {
-    .box {
-        border: 5px solid blue;
+  }
+  
+  @media (max-width: 700px) {
+    .text-box h1 {
+      font-size: 30px;
     }
-}
-
-
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .text-box {
+      border: 5px solid blue;
+    }
+  }
+  
