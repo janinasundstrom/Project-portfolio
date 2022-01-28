@@ -1,48 +1,36 @@
+
 * {
-    background-color: rgb(234, 238, 234); /*En backgrundsfärg för alla mina sidor*/
+    background-color: rgb(204, 219, 204); /*En backgrundsfärg för alla mina sidor*/
  
   }
 
 *{
 
-    margin: 0;
-padding: 0;
+    margin: 100;
+padding: 500;
 font-family: 'Poppins', sans-serif;
 
 }
 .header {
-    min-height: 1100vh;
+    min-height: 500%;
     width: 100%;
-    background-image: linear- 
-    gradient(rgba(4,9,30,0.7) ,rgba(4,9,30,0.7)),url(images\ \(kopia\)/images)
-    ;
     background-position: center;
-    background-size: cover;
-    position: relative;
+
 } 
 
 
-nav {
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-
     nav img{
-        width: 150px;
+        width: 100px;
 
     }
 
-
+/*Hur menyn ligger*/
     .nav-links{
         flex: 1;
         text-align:right;
 
     }
-
+/*Mina menyval */
     .nav-links ul li{
         list-style: none;
         display: inline-block;
@@ -50,18 +38,19 @@ nav {
         position: relative;
 
     }
-
+/*Min textfärg på menyn*/
     .nav-links ul li a{
         color: #000;
         text-decoration: none;
         font-size: 18px;
     }
 
+    /*Sträck i färg under menytext*/
     .nav-links ul li::after{
         content: '';
         width: 0%;
         height: 2px;
-        background: #2fdb0c;
+        background: #19500e;
         display: block;
         margin: auto;
         transition: 0.5s;
@@ -71,53 +60,35 @@ nav {
     .nav-links ul li:hover::after{
         width: 100%
     }
-
+/*Min content på alla sidor*/
     .text-box{
         width: 60%;
         color: #000;
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        transform: translate(-50%,-50%);
+        position: center;
+        top: 0%;
+        left: 0%;
+        
         text-align: center;
 
  }
 
 
- .text-box1{
-    width: 40%;
-    color: #000;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-
-}
-
-.text-box2{
-    width: 60%;
-    color: #000;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-
-}
-
+/*storlek rubrik på alla 3 sidor*/
  .text-box h1{
-     font-size: 62px;
+     font-size: 40px;
 
 }
 
 .text-box p{
-    margin: 10px 0 40px;
-    font-size: 14px;
+    margin: 20px  40px;
+    font-size: 20px;
     color: black;
 
 }
 
+
+
+/*Min bakgrundsfärg och funktion på Linkedin knappen*/
 .hero-btn{
     display: inline-block;
     text-decoration: none;
@@ -131,10 +102,38 @@ nav {
 
 }
 
+
+/*färg och hur snabbt den switchar då man för musen över */
 .hero-btn:hover{
     border: 1px solid #2fdb0c;
     background: #2fdb0c;
     transition: 1s;
+}
+
+
+
+
+.nav-links{
+    position: absolute;
+    height: 500px;
+    width: 200px;
+    top: 0;
+    right: 0;
+}
+
+
+body {
+    color: rgb(0, 0, 0)
+
+}
+
+.title {
+    font-size: 40px
+
+}
+
+.subtitle {
+    font-size: 30px;
 }
 
 @media(max-width: 700px){
@@ -142,20 +141,12 @@ nav {
         font-size: 30px;
    
    }
-
-
-   .nav-links ul li{
-       display:block;
 }
 
-
-
-.nav-links{
-    position: absolute;
-    background:  #f44336;
-    height: 100vh;
-    width: 200px;
-    top: 0;
-    right: 0;
+@media (max-width: 500px){
+body {
+    color: rgb(161, 190, 167);
+    font-size: 40;
 }
+
 }
