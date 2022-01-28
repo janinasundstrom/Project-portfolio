@@ -126,7 +126,8 @@
   
   @media only screen and (max-width: 768px) {
     .text-box {
-      border: 5px solid blue;
+      border: 5px solid rgb(146, 146, 170);
+      background-color: cadetblue;
     }
   }
   
