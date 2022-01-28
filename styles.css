@@ -62,7 +62,7 @@ font-family: 'Poppins', sans-serif;
     }
 /*Min content på alla sidor*/
     .text-box{
-        width: 60%;
+        width: 100%;
         color: #000;
         position: center;
         top: 0%;
